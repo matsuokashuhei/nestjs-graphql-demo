@@ -1,7 +1,7 @@
 FROM node:16-buster
 
-# RUN npm i -g @nestjs/cli typeorm ts-node
-ENV PATH /app/node_modules/.bin:$PATH
+RUN npm i -g @nestjs/cli typeorm ts-node
+# ENV PATH /app/node_modules/.bin:$PATH
 
 ENV workdir=/app
 RUN useradd -m nodejs && \
