@@ -1,0 +1,23 @@
+{
+    "name": "nestjs",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "nestjs",
+    "workspaceFolder": "/app",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+      "apollographql.vscode-apollo",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+    ],
+    "settings": {
+      "files.insertFinalNewline": true,
+      "files.trimFinalNewlines": true,
+      "files.trimTrailingWhitespace": true,
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "workbench.editor.enablePreview": false,
+      "workbench.editor.enablePreviewFromQuickOpen": false,
+      "terminal.integrated.scrollback": 10000,
+    }
+  }
+  
